@@ -1,0 +1,71 @@
+
+/*** Modal Hiwebnet ***/
+.noticeModal{
+    .modal-body{
+        position: relative;
+    }
+    // N월 소식 : 빨간색 라벨 텍스트 변경되게 스타일 정의
+    .label-notice{
+        background: url(/assets/images/notice/label_notice_bg_null.png) no-repeat center center;
+        background-size: 100%;
+        
+        z-index: 999;
+
+        .label-txt{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: block;
+            b{
+                color: #ffffff;
+                letter-spacing: 0.7vw;
+                transform: rotate( 347deg);
+            }
+        }
+        &.dp-pc{
+            position: absolute;
+            top: 0px;
+            left: -1.8vw;
+            width: 16vw;
+            height: 31vh;
+            .label-txt{
+                b{
+                    position: absolute;
+                    top: 9.5vh;
+                    left: 3.6vw;
+                    font-size: 3.2vh;
+                }
+            }
+        }
+        &.dp-mb{
+            position: absolute;
+            top: 0px;
+            left: -3.4vw;
+            width: 28vw;
+            height: 12vh;
+            .label-txt{
+                b{
+                    position: absolute;
+                    top: 3vh;
+                    left: 3vw;
+                    font-size: 2.2vh;
+                }
+            }
+        }                
+
+        
+
+        
+
+        
+        
+    }
+
+    // footer : 버튼영역
+    .modal-footer{
+        .btn{
+            height: 6.5vh;
+        }
+    }
+
+}

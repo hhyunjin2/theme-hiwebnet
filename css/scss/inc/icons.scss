@@ -1,0 +1,16 @@
+
+/*** Icon Hiwebnet ***/
+[class^="hi-"], [class*=" hi-"] {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    background: url(/assets/images/icons/icon_image.svg) no-repeat center center;
+    background-size: 100%;
+}
+.hi-mail{
+    background-image: url(/assets/images/icons/icon_mail.svg);
+}
+.hi-kakao{
+    background-image: url(/assets/images/icons/icon_kakao.svg);
+}
